@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(7, 1, 61), #EADABD);
+  color: wheat;
+  line-height: 1.7;
+}
+
+header {
+  background-color: #000561;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #5e63c0;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+section h2 {
+  color: wheat;
+  border-bottom: 2px solid wheat;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.deskripsi p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.visi-misi {
+  margin-top: 25px;
+}
+
+.visi, .misi {
+  margin-bottom: 15px;
+}
+
+.misi ul {
+  margin: 8px 0 0 20px;
+}
+
+/* Struktur Organisasi */
+.struktur {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.bagian {
+  background-color: #5e63c0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.bagian:hover {
+  transform: scale(1.02);
+  background-color: #000561;
+}
+
+.bagian h3 {
+  color: wheat;
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #000561;
+  color: white;
+  padding: 10px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}

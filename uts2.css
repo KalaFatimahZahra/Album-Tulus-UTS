@@ -1,0 +1,189 @@
+/* --- Gaya Umum Halaman --- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background :  linear-gradient(rgb(7, 1, 61), #EADABD);
+  color : white;
+  line-height: 1.6;
+}
+
+/* --- Header --- */
+header {
+  color: wheat;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+nav a {
+  color: #f4e3d0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.box{
+    margin: 20px auto;
+    padding: 40px 30px;
+    width: 500px;
+    background-color: #5e63c0;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px #3239C7;
+}
+
+section.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px 40px;
+}
+
+section.content .main {
+  flex: 3;
+}
+
+section.content .sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-content{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: white;
+}
+
+
+.sidebar {
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+ margin-top: 2px;
+}
+
+.sidebar-box {
+  background-color:#5e63c0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: #3239C7;
+  margin-bottom: 20px;
+}
+
+.sidebar-box h3 {
+  color: wheat;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar p {
+  color: wheat;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+
+/* Judul dan Subjudul */
+h2, h3 {
+  color: #3239C7;
+}
+
+
+/* --- Tautan (Link) di Bawah --- */
+p a {
+  display: inline-block;
+  background-color: #000561;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+p a:hover {
+  background-color: #000561;
+}
+
+/* ARTICLES SECTION */
+.articles {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+
+.articles article {
+  background-color: #5e63c0;
+  padding: 25px;
+  border-left: 4px solid #f3EDE4;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  box-shadow: none; /* pastikan tanpa bayangan */
+}
+
+.articles article:hover {
+  transform: translateY(-5px);
+}
+
+.articles h2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: wheat ;
+  margin-bottom: 15px;
+}
+
+.articles p {
+  color: wheat;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.read-more {
+  color:wheat ;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.read-more:hover {
+  color: #fff;
+}
+
+
+.footer-section {
+  background: #000561;
+    padding: 20px 40px;         
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.footer-section .footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

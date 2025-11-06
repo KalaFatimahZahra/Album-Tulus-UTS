@@ -1,0 +1,94 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5e63c0;
+  color:black;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #5e63c0;
+  color: black;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: black;
+}
+
+nav a {
+  color: #5e63c0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Bagian utama */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #5e63c0;
+}
+
+/* Daftar penghargaan */
+ul {
+  background: #f4e3d0;
+  padding: 15px;
+  border-radius: 6px;
+  list-style-type: square;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* Kutipan */
+blockquote {
+  font-style: italic;
+  background: #fff5ec;
+  border-left: 5px solid #b36a42;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+/* Link tombol */
+p a {
+  display: inline-block;
+  background-color: #5e63c0;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+p a:hover {
+  background-color:#5e63c0;
+}
+
+/* Footer */
+footer {
+  background-color:#5e63c0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
